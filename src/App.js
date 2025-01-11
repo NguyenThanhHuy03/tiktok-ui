@@ -4,7 +4,7 @@ import HomePage from './pages/Home'
 import NewsPage from './pages/News'
 import ContactPage from './pages/Contact'
 
-import './App.css'
+import '~/App.css'
 
 function App() {
 
