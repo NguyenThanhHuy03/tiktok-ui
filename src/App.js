@@ -15,9 +15,9 @@ function App() {
             if (route.layout) {
               Layout = route.layout
             } else if (route.layout === null) {
-              Layout = Fragment
+              Layout = Fragment // Fragment bọc component Page khi route.layout là null
             }
-            
+
             return <Route
               key={index}
               path={route.path}
