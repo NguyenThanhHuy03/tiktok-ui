@@ -14,6 +14,7 @@
 .inner {
     height: 100%;
     width: var(--default-Layout-width, 1150px);
+    padding: 0 var(--default-Layout-horizonta-spacer);
     display: flex; //ngang
     align-items: center; //giua tren duoi
     justify-content: space-between; // can giua deu
@@ -107,5 +108,6 @@
     margin-left: 24px;
     padding: 4px 8px;
     background-color: transparent;  
+    cursor: pointer;
 }
 
